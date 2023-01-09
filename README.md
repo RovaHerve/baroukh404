@@ -15,8 +15,8 @@ Enjoy using this APP and Good Luck.  Don't forget if you'll see an issue.
  - openai
  
  How to install all dependency : 
- pip install PyQt5
- pip install openai
+ - pip install PyQt5
+ - pip install openai
 
 
 
