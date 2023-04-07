@@ -9,7 +9,7 @@ import socket
 
 # Our API_KEY
 
-openai.api_key = "<API_KEY>"
+openai.api_key = "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"
 
 # your API_KEY like this : sk-fsE2pREdZ1FZYZTwjkNIT3BlbkFJtsLlyikcO6hKXsDCrO
 
@@ -434,7 +434,7 @@ class Ui_MainWindow(object):
         
                     return response["choices"][0]["text"]
                
-                except:
+                except openai.KeyError:
                     
                     return f"<b style='color:background-color: #D9534F'>{user},  un problème est survenue.Veillez réessayer."
             
